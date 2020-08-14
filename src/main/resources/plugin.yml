@@ -1,0 +1,4 @@
+name: Bobbybandit
+version: ${project.version}
+main: com.finaldaylight.bobbybandit.Main
+api-version: 1.16
