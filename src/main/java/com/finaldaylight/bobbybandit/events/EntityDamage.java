@@ -12,12 +12,12 @@ import java.util.Random;
 public class EntityDamage implements Listener {
 
     private ItemStack[] thiefbag = {
-            new ItemStack(Material.BAMBOO_SAPLING, 20),
+            new ItemStack(Material.BAMBOO_SAPLING, 1),
             new ItemStack(Material.ANVIL, 1),
-            new ItemStack(Material.BEEHIVE, 3),
+            new ItemStack(Material.BEEHIVE, 1),
             new ItemStack(Material.ENDER_PEARL, 1),
             new ItemStack(Material.DIAMOND_BOOTS, 1),
-            new ItemStack(Material.DIAMOND_AXE, 3),
+            new ItemStack(Material.DIAMOND_AXE, 1),
     };
 
     @EventHandler

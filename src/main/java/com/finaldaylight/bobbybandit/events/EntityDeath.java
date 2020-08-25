@@ -18,11 +18,11 @@ public class EntityDeath implements Listener {
     }
 
     private ItemStack[] thiefbag = {
-            new ItemStack(Material.BAMBOO_SAPLING, 64),
-            new ItemStack(Material.ANVIL, 2),
-            new ItemStack(Material.BEEHIVE, 3),
+            new ItemStack(Material.BAMBOO_SAPLING, 1),
+            new ItemStack(Material.ANVIL, 1),
+            new ItemStack(Material.BEEHIVE, 1),
             new ItemStack(Material.ENDER_PEARL, 1),
-            new ItemStack(Material.GOLDEN_BOOTS, 3),
+            new ItemStack(Material.GOLDEN_BOOTS, 1),
             new ItemStack(Material.GOLDEN_AXE, 1),
     };
 

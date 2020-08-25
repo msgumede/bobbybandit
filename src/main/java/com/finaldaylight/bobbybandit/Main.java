@@ -4,6 +4,7 @@ package com.finaldaylight.bobbybandit;
 import com.finaldaylight.bobbybandit.events.BlockMine;
 import com.finaldaylight.bobbybandit.events.EntityDamage;
 import com.finaldaylight.bobbybandit.events.EntityDeath;
+import org.bukkit.Bukkit;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -18,10 +19,14 @@ public final class Main extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-        PluginManager pm = this.getServer().getPluginManager();
-        pm.registerEvents(new EntityDamage(), this);
-        pm.registerEvents(new EntityDeath(this), this);
-        pm.registerEvents(new BlockMine(this), this);
+//        PluginManager pm = this.getServer().getPluginManager();
+//        pm.registerEvents(new EntityDamage(), this);
+//        pm.registerEvents(new EntityDeath(this), this);
+//        pm.registerEvents(new BlockMine(this), this);
+
+        Bukkit.getServer().getPluginManager().registerEvents(new EntityDamage(), this);
+        Bukkit.getServer().getPluginManager().registerEvents(new EntityDeath(this), this);
+        Bukkit.getServer().getPluginManager().registerEvents(new BlockMine(this), this);
 
     }
 
